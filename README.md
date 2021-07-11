@@ -10,5 +10,5 @@ docker build -t webserver:1.0 .     //此处镜像名称设置为 webserver:1.0
 运行以下命令用刚构建的镜像来启动容器：
 docker run -d -p 80:80 --name myweb webserver:1.0    //启动的容器名称是myweb，容器的80端口映射到主机的80端口上。
 
-验证：
+## 验证：
 可以在主机（或公网）请求本机IP：80
